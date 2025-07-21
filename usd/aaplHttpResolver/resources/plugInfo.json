@@ -1,0 +1,20 @@
+{
+    "Plugins": [
+        {
+            "Info": {
+                "Types": {
+                    "AaplHttpResolver": {
+                        "bases": ["ArDefaultResolver"],
+                        "uriSchemes": ["http", "https"]
+                    }
+                }
+            },
+            "LibraryPath": "",
+            "Name": "aaplHttpResolver",
+            "ResourcePath": "resources",
+            "Root": "..",
+            "Type": "library",
+            "Entitlements": [["com.apple.private.usd.enablehttp-resolver"]]
+        }
+    ]
+}
